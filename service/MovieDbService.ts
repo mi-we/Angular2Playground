@@ -4,16 +4,22 @@ import {Movie} from "../model/Movie";
 
 export class MovieDbService {
 	
+	private _movies: Array<Movie>;
+	
 	constructor() {
+		this._movies = new Array<Movie>();
+		this._movies.push(new Movie("The Matrix (1999)"));
+		this._movies.push(new Movie("The Incredibles (2004)"));
+		this._movies.push(new Movie("Blood Diamond (2004)"));
 	}
 	
 	getMovies(): Array<Movie> {
-		
-		var movies = new Array<Movie>();
-		
-		movies.push(new Movie("The Matrix (1999)"));
-		movies.push(new Movie("The Incredibles (2004)"));
-		movies.push(new Movie("Blood Diamond (2004)"));
-		return movies;
+		return this._movies;
 	}
+	
+	addMovie(movie: Movie) {
+		this._movies.push(movie);
+	}
+	
+	
 }

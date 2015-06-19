@@ -42,13 +42,15 @@ From the project root directory run the following commands:
  
  Run it from the root directory of the project and open the URL.
  
+ 
  # Useful resources
  
  * [Angular2 docs](https://angular.io/docs/js/latest/index.html) Especially the step-by-step guide
+ * [Angular2 Forms presentation by David East](https://ngforms.firebaseapp.com/#/)
  * [TypeScript handbook](http://www.typescriptlang.org/Handbook)
  
  ## Hints and troubleshooting
  
- * (http://stackoverflow.com/questions/30580083/angular2-no-provider-for-nameservice)
- * (http://stackoverflow.com/questions/30311514/injectables-in-angular2)
+ * http://stackoverflow.com/questions/30580083/angular2-no-provider-for-nameservice
+ * http://stackoverflow.com/questions/30311514/injectables-in-angular2
  

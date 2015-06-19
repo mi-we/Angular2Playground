@@ -1,7 +1,8 @@
 <h1>Movies</h1>
-
 <ul>
-	<li *ng-for="#movie of movies">
-		{{ movie.movieId }}
-	</li>
+	<li *ng-for="#movie of movies">{{ movie.movieId }}</li>
 </ul>
+<div [control-group]="movieForm">
+	<input #movietextbox control="movieId">
+	<button (click)="addMovie(movietextbox.value)">Save</button>
+</div>
