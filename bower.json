@@ -1,0 +1,19 @@
+{
+  "name": "ng2playground",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mi-we/Angular2Playground",
+  "authors": [
+    "Michael Werner <michael.werner@windowslive.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "traceur": "~0.0.90"
+  }
+}
