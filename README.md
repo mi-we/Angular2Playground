@@ -1,21 +1,41 @@
 # Angular2Playground
 
-This is a repository where i just try out Angular2 a bit for myself. Tag v1.1 contains the result of the ToDo list tutorial from the Angular2 docs
+This is a repository where i just try out Angular2 a bit for myself. Tag v1.1 contains the result of the ToDo list tutorial from the Angular2 docs.
 
-# Initialisation
+# Prerequisites
 
-Install TypeScript via NPM
+Assuming that npm is already installed on your computer, do the following steps:
+
+Install TypeScript
 
 ```
 npm install -g typescript
 ```
 
-Install tsd via NPM (Tool to get TypeScript definition files)
+Install tsd (Tool to get TypeScript definition files)
 
 ```
 npm install -g tsd
 ```
 
-From the project root directory run `tsd update` to get the Angular2 definitions for TypeScript
+Install bower
 
-From the project root directory run `tsc -w`. This will compile the TypeScript files and watch for changes. The compiler settings are defined in the file `tsconfig.json`.
+```
+npm install -g bower
+```
+
+# Initialisation
+
+From the project root directory run the following commands:
+
+ `tsd update` to get the Angular2 definitions for TypeScript.
+ `bower install` to install the dependencies to traceur.
+ `tsc` to compile the TypeScript files.
+ 
+ Use a simple http-server like the one from npm:
+ 
+ ```
+ npm install http-server
+ ```
+ 
+ Run it from the root directory of the project and open the URL.
