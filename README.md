@@ -2,6 +2,8 @@
 
 This is a repository where i just try out Angular2 a bit for myself. Tag v1.1 contains the result of the ToDo list tutorial from the Angular2 docs.
 
+The project should run successfully with AngularJS 2.0.0-alpha.26.
+
 # Prerequisites
 
 Assuming that npm is already installed on your computer, do the following steps:
