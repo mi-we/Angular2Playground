@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "module": "commonjs",
-    "emitDecoratorMetadata": true,
-    "target": "es5"
-  }
-}
